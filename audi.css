@@ -1,0 +1,36 @@
+html {
+    background-color: black;
+  }
+  h1 {
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    padding-top: 35px;
+    padding-bottom: 15px;
+  }
+  #taskbar {
+    background-color:  #f50537;
+    color: black;
+    text-align: center;
+    width: 66%;
+    margin: auto;
+    font-size: 20px;
+    height: 30px;
+    padding: 7.5px 0;
+    text-align: center;
+  
+  }
+  a {
+    color: black;
+    text-decoration: none;
+    
+  }
+  a:hover{
+    background-color: white;
+    color:#f50537;
+    transition: 500ms;
+  }
+  img {
+    margin-bottom: -17px;
+  }
+  

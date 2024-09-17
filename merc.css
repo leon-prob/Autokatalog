@@ -30,3 +30,6 @@ a:hover{
   color:#00A19B;
   transition: 500ms;
 }
+img {
+  margin-bottom: -2px;
+}

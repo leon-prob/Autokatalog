@@ -30,4 +30,8 @@ html {
     color:#0166B1;
     transition: 500ms;
   }
+  img {
+    margin-bottom: -4px;
+  }
+  
   
