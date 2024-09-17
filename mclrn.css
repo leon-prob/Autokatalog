@@ -1,6 +1,7 @@
 html {
     background-color: black;
     font-family: Century Gothic;
+    color: white;
   }
   h1 {
     color: white;
@@ -33,4 +34,25 @@ html {
   }
   img {
     margin-left: -15px;
+  }
+  #model-1 {
+    width: 30%;
+    height: 50%;
+    margin-left: 5%;
+  }
+  #model-2 {
+    width: 30%;
+    height: 50%;
+    margin-left: 35%;
+    margin-top: -378px;
+  }  
+  #model-3 {
+    width: 30%;
+    height: 50%;
+    margin-left: 65%;
+    margin-top: -375px;
+  }
+  h2{
+    width: 50%;
+    margin:auto;
   }
