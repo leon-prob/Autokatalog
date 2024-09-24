@@ -53,7 +53,7 @@ html {
     width: 50%;
     height: 75%;
     margin-left: 15.5%;
-    margin-top: -39.95%;
+    margin-top: -487.5px;
     clip-path: polygon(40% 0%, 400% 0%,400% 100%, 40% 100%);
   }  
   #model-3 {
@@ -62,7 +62,7 @@ html {
     width: 38%;
     height: 75%;
     margin-left: 58.5%;
-    margin-top: -39.95%;
+    margin-top: -487.5px;
     clip-path: polygon(20% 0%, 350% 0%,350% 100%, 20% 100%);
     color:white;
   }
@@ -72,8 +72,8 @@ html {
   }
 .model {
   color:white;
-  margin-left: 15%;
-  margin-right: 8%;
+  margin-left: 187px;
+  margin-right: 85px;
   font-weight: bold;
   font-size: 20px;
 }
