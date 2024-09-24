@@ -22,8 +22,11 @@ html {
     text-align: center;
   
   }
+.task {
+  color: black;
+}
+
   a {
-    color: black;
     text-decoration: none;
     
   }
@@ -36,23 +39,41 @@ html {
     margin-left: -15px;
   }
   #model-1 {
-    width: 30%;
-    height: 50%;
-    margin-left: 5%;
+    background-image: url("https://mclaren.scene7.com/is/image/mclaren/McL750S_Track_HighFront3_4_Final:crop-16x9?wid=1786&hei=1005");
+    background-size: cover; /* Or contain */
+    width: 50%;
+    height: 75%;
+    margin-left: -15%;
+    clip-path: polygon(40% 0%, 400% 0%,400% 100%, 40% 100%);
+    color:white;
   }
   #model-2 {
-    width: 30%;
-    height: 50%;
-    margin-left: 35%;
-    margin-top: -378px;
+    background-image: url("https://p6.focus.de/img/fotos/id_260056756/mclaren-artura-spider-1.jpg?im=Crop%3D%2849%2C240%2C1425%2C713%29%3BResize%3D%281200%2C627%29&impolicy=perceptual&quality=mediumHigh&hash=4322b2595f1513439ea0e6dcd2653868d42fd2d0c5f876bd5440b22b66ff1bad");
+    background-size: cover; /* Or contain */
+    width: 50%;
+    height: 75%;
+    margin-left: 15.5%;
+    margin-top: -39.95%;
+    clip-path: polygon(40% 0%, 400% 0%,400% 100%, 40% 100%);
   }  
   #model-3 {
-    width: 30%;
-    height: 50%;
-    margin-left: 65%;
-    margin-top: -375px;
+    background-image: url("https://img.blick.ch/incoming/16409608-v5-mclarenarturaflux-11.jpg?imdensity=2&ratio=3_2&x=0&y=2&width=6720&height=4475&imwidth=964");
+    background-size: cover; /* Or contain */
+    width: 38%;
+    height: 75%;
+    margin-left: 58.5%;
+    margin-top: -39.95%;
+    clip-path: polygon(20% 0%, 350% 0%,350% 100%, 20% 100%);
+    color:white;
   }
   h2{
     width: 50%;
     margin:auto;
   }
+.model {
+  color:white;
+  margin-left: 15%;
+  margin-right: 8%;
+  font-weight: bold;
+  font-size: 20px;
+}
