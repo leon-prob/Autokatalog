@@ -1,6 +1,7 @@
 html {
     background-color: black;
     font-family: Century Gothic;
+    color: white;
   }
   h1 {
     color: white;
@@ -34,4 +35,47 @@ html {
   img {
     margin-bottom: -3px;
   }
-  
+  .model {
+    color:white;
+    margin-left: 15%;
+    margin-right: 8%;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  #model-1 {
+    background-image: url("https://imgr1.auto-motor-und-sport.de/Lotus-Emira-i4-169FullWidth-6814a1db-2024999.jpg");
+    background-size: cover; /* Or contain */
+    width: 50%;
+    height: 75%;
+    margin-left: -15%;
+    clip-path: polygon(40% 0%, 400% 0%,400% 100%, 40% 100%);
+    color:white;
+    box-sizing: border-box;
+    transition: border 0.3s ease;
+  }
+  #model-2 {
+    background-image: url("https://www.autoscout24.de/cms-content-assets/18ewITalRgSGwUomzyGOmC-f3282fa6e45445f8c80a80d2e93ec98e-lotus-esprit-front-1100.webp");
+    background-size: cover; /* Or contain */
+    width: 50%;
+    height: 75%;
+    margin-left: 15.5%;
+    margin-top: -39.95%;
+    clip-path: polygon(40% 0%, 400% 0%,400% 100%, 40% 100%);
+    box-sizing: border-box;
+    transition: border 0.3s ease;
+  }  
+  #model-3 {
+    background-image: url("https://img.nzz.ch/2017/11/22/ed35c4ab-9d07-4c67-ad7d-c2e25b0336c1.jpeg?width=1360&height=764&fit=bounds&quality=75&auto=webp&crop=1920,1079,x0,y0");
+    background-size: cover; /* Or contain */
+    width: 38%;
+    height: 75%;
+    margin-left: 58.5%;
+    margin-top: -39.95%;
+    clip-path: polygon(20% 0%, 350% 0%,350% 100%, 20% 100%);
+    color:white;
+    box-sizing: border-box;
+    transition: border 0.3s ease;
+  }
+  #model-1:hover, #model-2:hover, #model-3:hover {
+    border: 5px solid #FFE59F;
+  }

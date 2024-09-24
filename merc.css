@@ -1,6 +1,7 @@
 html {
   background-color: black;
   font-family: Century Gothic;
+  color: white;
 }
 h1 {
   color: white;
@@ -33,4 +34,48 @@ a:hover{
 }
 img {
   margin-bottom: -2px;
+}
+.model {
+  color:white;
+  margin-left: 16%;
+  margin-right: 7%;
+  font-weight: bold;
+  font-size: 20px;
+}
+#model-1 {
+  background-image: url("https://img.nzz.ch/2018/3/4/d625b46c-89a8-4cb5-a413-bc0ac1deab2f.jpeg?width=1360&height=764&fit=bounds&quality=75&auto=webp&crop=1920,1079,x0,y0");
+  background-size: cover; /* Or contain */
+  width: 50%;
+  height: 75%;
+  margin-left: -15%;
+  clip-path: polygon(40% 0%, 400% 0%,400% 100%, 40% 100%);
+  color:white;
+  box-sizing: border-box;
+  transition: border 0.3s ease;
+}
+#model-2 {
+  background-image: url("https://www.4x4schweiz.ch/wp-content/uploads/2018/04/Mercedes_G63_AMG_7.jpg");
+  background-size: cover; /* Or contain */
+  width: 50%;
+  height: 75%;
+  margin-left: 15.5%;
+  margin-top: -39.95%;
+  clip-path: polygon(40% 0%, 400% 0%,400% 100%, 40% 100%);
+  box-sizing: border-box;
+  transition: border 0.3s ease;
+}  
+#model-3 {
+  background-image: url("https://media.drive.com.au/obj/tx_q:50,rs:auto:1920:1080:1/driveau/upload/cms/uploads/o3y97h8xrhsjnpdez0gw");
+  background-size: cover; /* Or contain */
+  width: 38%;
+  height: 75%;
+  margin-left: 58.5%;
+  margin-top: -39.95%;
+  clip-path: polygon(20% 0%, 350% 0%,350% 100%, 20% 100%);
+  color:white;
+  box-sizing: border-box;
+  transition: border 0.3s ease;
+}
+#model-1:hover, #model-2:hover, #model-3:hover {
+  border: 5px solid #00A19B;
 }

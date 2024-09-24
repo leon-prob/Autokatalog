@@ -1,6 +1,7 @@
 html {
     background-color: black;
     font-family: Century Gothic;
+    color: white;
   }
   h1 {
     color: white;
@@ -22,6 +23,7 @@ html {
   
   }
   a {
+    color: black;
     text-decoration: none;
     
   }
@@ -33,4 +35,47 @@ html {
   img {
     margin-bottom: -17px;
   }
-  
+  .model {
+    color:white;
+    margin-left: 15%;
+    margin-right: 8%;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  #model-1 {
+    background-image: url("https://uploads.audi-mediacenter.com/system/production/media/88186/images/36ce80695d4a7e2e745adabbe1fdbad6acc7cd8f/A1916059_web_1440.jpg?1698409914");
+    background-size: cover; /* Or contain */
+    width: 50%;
+    height: 75%;
+    margin-left: -15%;
+    clip-path: polygon(40% 0%, 400% 0%,400% 100%, 40% 100%);
+    color:white;
+    box-sizing: border-box;
+    transition: border 0.3s ease;
+  }
+  #model-2 {
+    background-image: url("https://doubleapex.co.za/wp-content/uploads/2022/10/Audi-R8-Coupe-V10-GT-RWD.jpeg");
+    background-size: cover; /* Or contain */
+    width: 50%;
+    height: 75%;
+    margin-left: 15.5%;
+    margin-top: -39.95%;
+    clip-path: polygon(40% 0%, 400% 0%,400% 100%, 40% 100%);
+    box-sizing: border-box;
+    transition: border 0.3s ease;
+  }  
+  #model-3 {
+    background-image: url("https://cdn.motor1.com/images/mgl/3XB1K/s1/audi-q8.webp");
+    background-size: cover; /* Or contain */
+    width: 38%;
+    height: 75%;
+    margin-left: 58.5%;
+    margin-top: -39.95%;
+    clip-path: polygon(20% 0%, 350% 0%,350% 100%, 20% 100%);
+    color:white;
+    box-sizing: border-box;
+    transition: border 0.3s ease;
+  }
+  #model-1:hover, #model-2:hover, #model-3:hover {
+    border: 5px solid #f50537;
+  }
