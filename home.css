@@ -31,4 +31,35 @@ html {
     color:#a10000;
     transition: 500ms;
   }
-  
+
+
+ label{
+    color:white;
+    width:50%;
+    margin-left:47.5%;
+  }
+  input{
+    width:50%;
+    margin-left:25%;
+    font-size: 1rem;
+  }
+
+
+  #searchResults{
+    color:white;
+    width:50%;
+    margin: auto;
+    border: white;
+    border-bottom-style: double;
+    border-top-style: double;
+    border-right-style: solid;
+    border-left-style: solid;
+    margin-top: 50px;
+  }
+  #oneResult{
+    border-bottom-style: double;
+    border-top-style: double;
+    border-right-style: solid;
+    border-left-style: solid;
+    text-align: center;
+  }
