@@ -12,8 +12,8 @@ html {
     padding-bottom: 15px;
   }
   #taskbar {
-    background-color:  #f50537;
-    color: black;
+    border-bottom:  #f50537 3px solid;
+    color: white;
     text-align: center;
     width: 66%;
     margin: auto;
@@ -24,7 +24,7 @@ html {
   
   }
   a {
-    color: black;
+    color: white;
     text-decoration: none;
     
   }

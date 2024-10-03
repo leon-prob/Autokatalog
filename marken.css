@@ -10,7 +10,7 @@ html {
     padding-bottom: 15px;
   }
   #taskbar {
-    background-color:  #a10000;
+    border-bottom:  #a10000 3px solid;
     color: rgb(255, 255, 255);
     text-align: center;
     width: 66%;

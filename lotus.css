@@ -12,8 +12,8 @@ html {
     padding-bottom: 15px;
   }
   #taskbar {
-    background-color:  #FFE59F;
-    color: black;
+    border-bottom:  #FFE59F 3px solid;
+    color: white;
     text-align: center;
     width: 66%;
     margin: auto;
@@ -24,13 +24,13 @@ html {
   
   }
   a {
-    color: black;
+    color: white;
     text-decoration: none;
     
   }
   a:hover{
     background-color: white;
-    color:#FFE59F;
+    color:#957e40;
     transition: 500ms;
   }
   img {
