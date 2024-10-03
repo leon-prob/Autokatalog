@@ -99,3 +99,12 @@ img {
   .active, .navButton:hover {
     background-color: #f79648;
   }
+  .fade {
+    animation-name: slide;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }

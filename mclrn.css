@@ -2,6 +2,7 @@ html {
     background-color: black;
     font-family: Century Gothic;
     color: white;
+    aspect-ratio: 16 / 10;
   }
   h1 {
     color: white;
@@ -38,6 +39,20 @@ html {
   img {
     margin-left: -15px;
   }
+  .modelLinks{
+    text-align: center;
+    width: 70%;
+    margin: auto;
+  }
+  #centerLink{
+    margin-left: 31%;
+    margin-right: 31%;
+  }
+  .model {
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+  }
   #model-1 {
     background-image: url("https://mclaren.scene7.com/is/image/mclaren/McL750S_Track_HighFront3_4_Final:crop-16x9?wid=1786&hei=1005");
     background-size: cover; /* Or contain */
@@ -55,7 +70,7 @@ html {
     width: 50%;
     height: 75%;
     margin-left: 15.5%;
-    margin-top: -39%;
+    margin-top: -46.57%;
     clip-path: polygon(40% 0%, 400% 0%,400% 100%, 40% 100%);
     box-sizing: border-box;
     transition: border 0.3s ease;
@@ -66,7 +81,7 @@ html {
     width: 38%;
     height: 75%;
     margin-left: 58.5%;
-    margin-top: -39%;
+    margin-top: -46.57%;
     clip-path: polygon(20% 0%, 350% 0%,350% 100%, 20% 100%);
     color:white;
     box-sizing: border-box;
@@ -78,8 +93,8 @@ html {
   }
 .model {
   color:white;
-  margin-left: 15%;
-  margin-right: 8%;
+  margin-left: 17%;
+  margin-right: 7.5%;
   font-weight: bold;
   font-size: 20px;
 }

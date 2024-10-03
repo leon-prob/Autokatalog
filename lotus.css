@@ -2,6 +2,7 @@ html {
     background-color: black;
     font-family: Century Gothic;
     color: white;
+    aspect-ratio: 16 / 10;
   }
   h1 {
     color: white;
@@ -35,10 +36,17 @@ html {
   img {
     margin-bottom: -3px;
   }
+  .modelLinks{
+    text-align: center;
+    width: 70%;
+    margin: auto;
+  }
+  #centerLink{
+    margin-left: 31%;
+    margin-right: 31%;
+  }
   .model {
     color:white;
-    margin-left: 15%;
-    margin-right: 8%;
     font-weight: bold;
     font-size: 20px;
   }
@@ -59,7 +67,7 @@ html {
     width: 50%;
     height: 75%;
     margin-left: 15.5%;
-    margin-top: -39.95%;
+    margin-top: -46.57%;
     clip-path: polygon(40% 0%, 400% 0%,400% 100%, 40% 100%);
     box-sizing: border-box;
     transition: border 0.3s ease;
@@ -70,7 +78,7 @@ html {
     width: 38%;
     height: 75%;
     margin-left: 58.5%;
-    margin-top: -39.95%;
+    margin-top: -46.57%;
     clip-path: polygon(20% 0%, 350% 0%,350% 100%, 20% 100%);
     color:white;
     box-sizing: border-box;
