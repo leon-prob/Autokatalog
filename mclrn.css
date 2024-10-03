@@ -55,7 +55,7 @@ html {
   }
   #model-1 {
     background-image: url("https://mclaren.scene7.com/is/image/mclaren/McL750S_Track_HighFront3_4_Final:crop-16x9?wid=1786&hei=1005");
-    background-size: cover; /* Or contain */
+    background-size: cover; 
     width: 50%;
     height: 75%;
     margin-left: -15%;
@@ -91,13 +91,7 @@ html {
     width: 50%;
     margin:auto;
   }
-.model {
-  color:white;
-  margin-left: 17%;
-  margin-right: 7.5%;
-  font-weight: bold;
-  font-size: 20px;
-}
+
 #model-1:hover, #model-2:hover, #model-3:hover {
   border: 5px solid #FF8000;
 }
