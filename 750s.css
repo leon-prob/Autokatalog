@@ -56,6 +56,7 @@ img {
     background-color: #ff6600;
     margin: 0 5px;
     cursor: pointer;
+    transition: transform 0.3s ease;
 }
 
 #slide1:checked ~ .slides {
@@ -97,6 +98,7 @@ img {
   }
   .active, .navButton:hover {
     background-color: #f79648;
+    transform: scaleX(1.5);
   }
   .fade {
     animation-name: slide;
