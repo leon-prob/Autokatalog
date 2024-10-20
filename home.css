@@ -2,6 +2,7 @@ html {
     background-color: black;
     font-family: Century Gothic;
     aspect-ratio: 16 / 10;
+    color: white;
   }
   h1 {
     color: white;
@@ -20,7 +21,7 @@ html {
     height: 30px;
     padding: 7.5px 0;
     text-align: center;
-  
+    position: sticky;
   }
   a {
     color: rgb(255, 255, 255);
@@ -64,3 +65,50 @@ html {
     border-left-style: solid;
     text-align: center;
   }
+  .brands{
+    width: 50%;
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    display: flex; /* This makes the content and image align horizontally */
+    align-items: center; /* This centers the image and text vertically */
+    justify-content: flex-start; /* Aligns the content to the left */
+}
+
+p.content {
+    color: white;
+    padding-left: 40px; /* Adds space between the image and the text */
+    margin: 0;
+}
+  .subtitle {
+    border-top: solid #a10000 1px;
+    color: white;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+  }
+  #side-nav {
+    position: fixed;
+    top: 180;
+    left: 0;
+    background-color: #000000;
+    padding: 0px 15px;
+    width: 10%;
+    text-align: center;
+    margin-left: 60px;
+    border: solid #471010 1px;
+}
+
+#side-nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    text-align: left;
+}
+
+#side-nav a:hover {
+    background-color: #422525;
+}
