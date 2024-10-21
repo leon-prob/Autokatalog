@@ -12,7 +12,7 @@ html {
     padding-bottom: 15px;
   }
   #taskbar {
-    border-bottom:  #a10000 3px solid;
+    border-bottom:  #471010 3px solid;
     color: rgb(255, 255, 255);
     text-align: center;
     width: 66%;
@@ -30,7 +30,7 @@ html {
   }
   a:hover{
     background-color: white;
-    color:#a10000;
+    color:#471010;
     transition: 500ms;
   }
 
@@ -82,7 +82,7 @@ p.content {
     margin: 0;
 }
   .subtitle {
-    border-top: solid #a10000 1px;
+    border-top: solid #471010 1px;
     color: white;
     width: 50%;
     margin-left: auto;
@@ -98,7 +98,7 @@ p.content {
     width: 10%;
     text-align: center;
     margin-left: 60px;
-    border: solid #471010 1px;
+    border: solid #471010 3px;
 }
 
 #side-nav a {
