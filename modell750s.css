@@ -109,6 +109,8 @@ h1 {
     font-size: 35px;
     padding-top: 35px;
     padding-bottom: 15px;
+    width: 50%;
+    margin:auto;
   }
   #taskbar {
     border-bottom:  #FF8000 3px solid;
