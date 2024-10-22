@@ -5,7 +5,7 @@ const dataSet1 = [
     { name: "Lotus", description: "Marke", link:"lotus.html" },
     { name: "BMW", description: "Marke", link:"bmw.html" },
     { name: "600 LT", description: "McLaren", link:"600lt.html" },
-    { name: "750 S", description: "McLaren", link:"750s.html" },
+    { name: "750 S", description: "McLaren", link:"modell750s.html" },
     { name: "Artura", description: "McLaren", link:"artura.html" },
     { name: "S 63 AMG", description: "Mercedes-Benz" },
     { name: "G 63 AMG", description: "Mercedes-Benz" },
