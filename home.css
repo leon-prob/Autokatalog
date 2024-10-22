@@ -71,14 +71,14 @@ html {
     margin-left: auto;
     margin-right: auto;
     margin-top: 25px;
-    display: flex; /* This makes the content and image align horizontally */
-    align-items: center; /* This centers the image and text vertically */
-    justify-content: flex-start; /* Aligns the content to the left */
+    display: flex; /* makes content and image align horizontally */
+    align-items: center; /* centers image and text vertically */
+    justify-content: flex-start; /* Aligns content left */
 }
 
 p.content {
     color: white;
-    padding-left: 40px; /* Adds space between the image and the text */
+    padding-left: 40px; 
     margin: 0;
 }
   .subtitle {
