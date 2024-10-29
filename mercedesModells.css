@@ -26,7 +26,7 @@ body {
     padding: 20px;
 }
 
-img {
+.container img {
     width: 500px;
 }
 
@@ -113,7 +113,7 @@ h1 {
     margin:auto;
   }
   #taskbar {
-    border-bottom:  #FF8000 3px solid;
+    border-bottom:  #00A19B 3px solid;
     color: white;
     text-align: center;
     width: 66%;
@@ -134,7 +134,7 @@ a {
 }
     .task:hover{
       background-color: white;
-      color:#FF8000;
+      color:#00A19B;
       transition: 500ms;
     }
     .logo {
@@ -164,7 +164,7 @@ a {
         display: inline-block;
         width: 25px;
         height: 4px;
-        background-color: #ff6600;
+        background-color: #00A19B;
         margin: 0 5px;
         cursor: pointer;
         transition: transform 0.3s ease;
@@ -212,7 +212,7 @@ a {
         background-color: rgba(0,0,0,0.8);
       }
       .active, .navButton:hover {
-        background-color: #f79648;
+        background-color: #0cded7;
         transform: scaleX(1.5);
       }
       .fade {
@@ -223,4 +223,8 @@ a {
       @keyframes fade {
         from {opacity: .4}
         to {opacity: 1}
+      }
+      .quellen {
+        width: 50%;
+        margin: auto;
       }

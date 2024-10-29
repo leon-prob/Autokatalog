@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: #f0f0f0;
+    font-family: Century Gothic;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #f0f0f0;
+    background-color: #1c1c1c;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #f0f0f0;
+    padding: 20px;
+}
+
+.container img {
+    width: 500px;
+}
+
+.image-placeholder p {
+    color: #f0f0f0;
+    font-size: 24px;
+}
+
+.info-section {
+    width: 35%;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.info-section p {
+    margin: 5px 0;
+}
+
+.price-section {
+    margin: 15px 0;
+    font-size: 18px;
+}
+
+.manufacturer-link {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #f0f0f0;
+    color: #1c1c1c;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.manufacturer-link:hover {
+    display: inline-block;
+    padding: 10px 15px;
+    color: #f0f0f0;
+    background-color: #1c1c1c;
+    border: solid 1px white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+.creator-index {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #333;
+    text-align: center;
+    font-size: 18px;
+    border: 2px solid #f0f0f0;
+}
+
+.information-section {
+    padding: 20px;
+    border: 2px solid #f0f0f0;
+    margin-top: 20px;
+}
+
+.information-section h3 {
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.information-section p {
+    font-size: 18px;
+}
+.task:hover{
+    background-color: black;
+    border: solid 1px white;
+    color: white;
+    transition: 250ms;
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    padding-top: 35px;
+    padding-bottom: 15px;
+    width: 50%;
+    margin:auto;
+  }
+  #taskbar {
+    border-bottom:  #957e40 3px solid;
+    color: white;
+    text-align: center;
+    width: 66%;
+    margin: auto;
+    font-size: 20px;
+    height: 30px;
+    padding-bottom: 15px;
+    text-align: center;
+  
+  }
+  .task {
+    color: white;
+    margin-bottom: 15px;
+  }
+  
+a {
+      text-decoration: none;      
+}
+    .task:hover{
+      background-color: white;
+      color:#957e40;
+      transition: 500ms;
+    }
+    .logo {
+      margin-left: -15px;
+      height: 50px;
+      width: 50px;
+    }
+
+    .title{
+        color: white;
+        text-decoration: none;
+    }
+    .title:hover{
+        color: white;
+        text-decoration: none;
+    }
+    .navigation {
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        top:480px;
+        left:440px;
+    }
+    
+    .navButton {
+        display: inline-block;
+        width: 25px;
+        height: 4px;
+        background-color: #957e40;
+        margin: 0 5px;
+        cursor: pointer;
+        transition: transform 0.3s ease;
+    }
+    
+    #slide1:checked ~ .slides {
+        transform: translateX(0);
+    }
+    
+    #slide2:checked ~ .slides {
+        transform: translateX(-100%);
+    }
+    
+    #slide3:checked ~ .slides {
+        transform: translateX(-200%);
+    }
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -22px;
+        margin-left: -50%;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+      }
+      
+      .next {
+        right: 52%;
+        border-radius: 3px 0 0 3px;
+        top: 48%;
+      }
+      .prev {
+        right: 84%;
+        border-radius: 3px 0 0 3px;
+        top: 48%;
+      }
+      
+      .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8);
+      }
+      .active, .navButton:hover {
+        background-color: #e0c67f;
+        transform: scaleX(1.5);
+      }
+      .fade {
+        animation-name: slide;
+        animation-duration: 1.5s;
+      }
+      
+      @keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+      }
+      .quellen {
+        width: 50%;
+        margin: auto;
+      }

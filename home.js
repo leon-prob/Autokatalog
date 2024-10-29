@@ -10,15 +10,15 @@ const dataSet1 = [
     { name: "S 63 AMG", description: "Mercedes-Benz" , link:"s63.html"},
     { name: "G 63 AMG", description: "Mercedes-Benz", link:"g63.html"},
     { name: "S 350", description: "Mercedes-Benz", link:"s350.html"},
-    { name: "RS 6", description: "Audi" },
-    { name: "R8", description: "Audi" },
-    { name: "Q8", description: "Audi" },
-    { name: "Emire", description: "Lotus" },
-    { name: "Esprit", description: "Lotus" },
-    { name: "Exige", description: "Lotus" },
-    { name: "M3", description: "BMW" },
-    { name: "M4", description: "BMW" },
-    { name: "X6", description: "BMW" }
+    { name: "RS 6", description: "Audi", link:"rs6.html" },
+    { name: "R8", description: "Audi", link:"r8.html" },
+    { name: "Q8", description: "Audi", link:"q8.html" },
+    { name: "Emira", description: "Lotus", link:"emira.html" },
+    { name: "Esprit", description: "Lotus", link:"espirit.html" },
+    { name: "Exige", description: "Lotus", link:"exige.html" },
+    { name: "M3", description: "BMW", link:"m3.html" },
+    { name: "M4", description: "BMW", link:"m4.html" },
+    { name: "X6", description: "BMW", link:"x6.html" }
     
   ];
   
